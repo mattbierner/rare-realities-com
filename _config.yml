@@ -1,0 +1,38 @@
+name: Rare Realities
+author: Matt Bierner
+description: "Builder of unique augmented reality experiences."
+url: https://rarerealities.com
+paginate: 15
+
+# google_analytics: G-33Q8HZ29K8
+
+baseurl: ""
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  hard_wrap: false
+
+permalink: /:title/
+
+future: true
+
+feed:
+  path: feed.xml
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-paginate
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
+  - support

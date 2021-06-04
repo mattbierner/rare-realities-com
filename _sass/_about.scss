@@ -1,0 +1,27 @@
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    max-width: 460px;
+
+    min-height: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    padding-bottom: 3rem;
+    
+
+    .logo {
+        margin-bottom: 1rem;
+    }
+
+    section {
+        padding-bottom: 1rem;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 0.9rem;
+    }
+}
