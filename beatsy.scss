@@ -181,9 +181,13 @@ a {
     max-width: 1000px;
     padding: 0 2em;
 
+    h1, h2, p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
     h1 {
         border-bottom: 4px solid var(--accent-color);
-        padding-left: 1rem;
         padding-bottom: 0.1em;
         margin-bottom: 2rem;
     }
@@ -192,13 +196,11 @@ a {
         margin-top: 1rem;
         margin-bottom: 0.4rem;
         font-size: 1.3rem;
-        padding-left: 1rem;
         font-weight: bold;
     }
 
     p {
         margin-bottom: 1em;
-        padding-left: 1rem;
     }
 
     section {
