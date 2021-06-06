@@ -1,0 +1,111 @@
+---
+description: "a"
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Beatsy</title>
+
+    {% include meta.html %}
+
+    <meta name="apple-itunes-app" content="app-id=1543162330">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/beatsy.css" />
+
+    {% include analytics.html %}
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="masthead">
+            <video autoplay muted loop src="resources/header.mp4" poster="resources/header-poster.png"></video>
+
+            <a class="logo" href="https://apps.apple.com/us/app/beatsy/id1543162330?itsct=apps_box_link&itscg=30200">
+                <img src="resources/logo.svg">
+            </a>
+
+            <a class="app-store" href="https://apps.apple.com/us/app/beatsy/id1543162330?itsct=apps_box_link&itscg=30200">
+                <img src="resources/app-store.svg">
+            </a>
+        </div>
+
+        <div class="body-header">
+            <img class="text-logo" alt="Beatsy" src="resources/text-logo.svg">
+
+            <p class="tagline">Augmented reality music visualizer</p>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="https://github.com/mattbierner/beatsy-support">Documentation</a>
+                <a href="#musicians">For Musicians</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <article class="page-body">
+        <section id="about">
+            <div>
+                <h1>About Beatsy</h1>
+                <p>
+                    Beatsy is a groundbreaking augmented reality music visualizer for iOS that distorts the world to your music. Experience your music as never before, with heavy bass notes sending 3D waves rolling down the street and thumps of drum sending the walls bulging outwards.
+                </p>
+                <p>
+                    Beatsy includes a number of innovative visualizers you can use to explore your music collection. Every visualizer can be tweaked and customized to perfectly match the current song. The app also includes tools for recording photos and videos of its world bending effects.
+                </p>
+                <p>
+                    <a href="https://apps.apple.com/us/app/beatsy/id1543162330?itsct=apps_box_link&itscg=30200">Get Beatsy for free in the App Store</a>.
+                </p>
+            </div>
+
+            <video autoplay muted source loop src="resources/demo-1.mp4" poster="resources/demo-1-poster.png"></video>
+        </section>
+
+        <section id="support">
+            <video autoplay muted source loop src="resources/demo-2.mp4" poster="resources/demo-2-poster.png"></video>
+
+            <div>
+                <h1>Support</h1>
+                <p>
+                    For help using Beatsy, <a href="https://github.com/mattbierner/beatsy-support">check out our documentation</a>.
+                </p>
+                <p>
+                    If you run into an issue or would like to request a feature, please <a href="https://github.com/mattbierner/beatsy-support/issues">file an issue</a>.
+                </p>
+            </div>
+
+        </section>
+
+
+        <section id="musicians">
+            <div>
+                <h1>For Musicians</h1>
+                <p>If you're a musician, you can use Beatsy to showcase your music:</p>
+
+                <h2>Record videos</h2>
+
+                <p>Beatsy's built-in recorder lets you capture its unique world distorting effects. This can be a fun way to visually share music you've been working on. You are free to use the recorded videos however you'd like but we always appreciate a shout-out.</p>
+
+                <h2>Distribute music with Beatsy app clip codes</h2>
+
+                <p>App clip codes are scannable QR-style codes that launch Beatsy with a specific song and set of visualizer effects. Users don't even need to install Beatsy ahead of time. <a href="https://www.youtube.com/watch?v=5iWi_Kd7rfw">This video</a> shows one of these codes in action.</p>
+
+                <p>App Clip codes are free to create and you can use the code however you'd like. A few musicians have used them on stickers placed around a city as a fun way to physically distribute their music.</p>
+
+                <h2>Custom AR effects</h2>
+
+                <p>If you have a creative AR project in mind, please <a href="/about#contact">get in touch</a>. We are always looking for creative partners.</p>
+            </div>
+            <video autoplay muted source loop src="resources/demo-3.mp4" poster="resources/demo-3-poster.png"></video>
+        </section>
+    </article>
+
+    <div class="spacer"></div>
+
+    <footer class="page-footer">
+        &copy; 2021 <a href="/">Rare Realities, LLC</a>
+    </footer>
+</body>
+
+</html>
