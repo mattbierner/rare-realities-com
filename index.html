@@ -10,17 +10,20 @@ layout: default
         <img title="Rare Realities" src="/images/header.svg">
     </header>
 
-    <!-- <div class="carousel">
-        <video src="images/carousel/beatsy.mp4"></video>
-        <video class="active" src="images/carousel/beatsy.mp4"></video>
-        <video src="images/carousel/beatsy.mp4"></video>
-    </div> -->
-
     <nav class="index-nav">
         <a href="https://apps.apple.com/us/developer/matt-bierner/id1328805395">Apps</a>
         <a href="/about">About</a>
         <a href="mailto:matt@rarerealities.com">Contact</a>
     </nav>
+
+    <div class="apps">
+        <a class="beatsy" href="/beatsy" title="Beatsy — AR music visualizer">
+            <div class="icon">
+                <img src="beatsy/resources/logo.svg">
+            </div>
+            <span>Beatsy</span>
+        </a>
+    </div>
 
     <div class="spacer"></div>
 
@@ -28,17 +31,3 @@ layout: default
         &copy; 2021 Rare Realities, LLC
     </footer>
 </div>
-
-<!-- <script>
-    const carousel = document.querySelector('.carousel');
-    
-    setInterval(() => {
-        const videoElements = [...carousel.querySelectorAll('video')];
-        const active = carousel.querySelector('.active');
-        const index = videoElements.indexOf(active);
-        const newIndex = (index + 1) % videoElements.length;
-
-        active.classList.remove('active');
-        videoElements[newIndex].classList.add('active');
-    }, 1000)
-</script> -->
