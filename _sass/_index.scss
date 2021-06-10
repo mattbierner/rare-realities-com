@@ -38,22 +38,17 @@
 
         .icon {
             display: block;
-            border-radius: 20%;
             width: 120px;
-            box-shadow: 0 0 10px #444;
             margin-bottom: 1rem;
         }
 
         .beatsy {
-            .icon {
-                background-color: #f9386a;
-            }
-
             img {
-                padding: 10%;
                 width: 100%;
-                opacity: 0.78;
                 display: block;
+                -webkit-filter: drop-shadow(0 0 10px #444);
+                filter: drop-shadow(0 0 10px #444);
+                transform: translate3d(0, 0, 0); // Force into own layer for Safari
             }
         }
     }

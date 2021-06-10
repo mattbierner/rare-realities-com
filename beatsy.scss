@@ -106,20 +106,16 @@ a {
 
         .logo {
             display: block;
-            background-color: var(--accent-color);
-            border-radius: 20%;
-            z-index: 1;
             width: 20vw;
             min-width: 140px;
             max-width: 280px;
             margin-bottom: 1em;
-            box-shadow: 0 0 10px #444;
     
             img {
-                padding: 10%;
                 width: 100%;
-                opacity: 0.78;
                 display: block;
+                filter: drop-shadow(0 0 10px #444);
+                transform: translate3d(0, 0, 0); // Force into own layer for Safari
             }
         }
 
@@ -130,6 +126,8 @@ a {
             img {
                 display: block;
                 width: 100%;
+                filter: drop-shadow(0 0 10px #444);
+                transform: translate3d(0, 0, 0); // Force into own layer for Safari
             }
         }
     }
