@@ -27,6 +27,7 @@
         font-size: 1em;
         margin-top: 6rem;
         margin-bottom: 2rem;
+        gap: 2rem;
 
         a {
             color: $foreground;
@@ -40,9 +41,7 @@
             display: block;
             width: 120px;
             margin-bottom: 1rem;
-        }
 
-        .beatsy {
             img {
                 width: 100%;
                 display: block;
@@ -52,7 +51,6 @@
             }
         }
     }
-
 
     .index-footer {
         text-align: center;

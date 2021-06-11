@@ -1,0 +1,109 @@
+---
+description: "watAR: Turn any surface into water with this augmented reality app for iOS"
+appId: 1546980861
+appLink: https://apps.apple.com/us/app/watar/id1546980861?itsct=apps_box_link&itscg=30200
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>watAR</title>
+
+    {% include meta.html %}
+
+    <meta name="apple-itunes-app" content="app-id={{page.appId}}">
+
+    <link rel="stylesheet" type="text/css" href="resources/index.css" />
+
+    {% include analytics.html %}
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="masthead">
+            <video playsinline autoplay muted loop src="resources/header.mp4" poster="resources/header-poster.png"></video>
+
+            <a class="logo" href="{{page.appLink}}">
+                <img alt="watAR" src="resources/icon.png">
+            </a>
+
+            <a class="app-store" href="{{page.appLink}}">
+                <img src="resources/app-store.svg">
+            </a>
+        </div>
+
+        <div class="body-header">
+            <img class="text-logo" alt="watAR" src="resources/text-logo.svg">
+
+            <p class="tagline">Turn any surface into water using augmented reality</p>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="https://github.com/mattbierner/watar-support">Documentation</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <article class="page-body">
+        <section id="about">
+            <div class="blurb">
+                <h1>Waves</h1>
+                <p>
+                    Transform streets, fields, and walls into roiling oceans with 3D wave distortions.
+                </p>
+                <p>
+                    Adjust the wave effects for the perfect nautical look!
+                </p>
+            </div>
+
+            <video class="video" playsinline autoplay muted source loop src="resources/demo-waves.mp4" poster="resources/demo-waves-poster.png"></video>
+        </section>
+        <section>
+            <div class="blurb">
+                <h1>Rain</h1>
+                <p>
+                    Distort surfaces with raindrops. Each drop lifts the surface as it hits and spreads outwards.
+                </p>
+                <p>
+                    The rain drops are physically simulated making every simulation unique.
+                </p>
+            </div>
+
+            <video class="video" playsinline autoplay muted source loop src="resources/demo-rain.mp4" poster="resources/demo-rain-poster.png"></video>
+        </section>
+        <section>
+            <div class="blurb">
+                <h1>Touch</h1>
+                <p>
+                    Watch ripples spread out as you run your hand along a wall or floor with the interactive surface feature. This lets you physically interact with surfaces as if they were made of water.
+                </p>
+                <p style="font-style: italic;">
+                    Note that interactive surface requires a device with a LiDAR sensor
+                </p>
+            </div>
+
+            <video class="video" playsinline autoplay muted source loop src="resources/demo-touch.mp4" poster="resources/demo-touch-poster.png"></video>
+        </section>
+        <section>
+            <div class="blurb">
+                <h1>Support</h1>
+                <p>
+                    For help using watAR, <a href="https://github.com/mattbierner/watar-support">check out our documentation</a>.
+                </p>
+                <p>
+                    If you run into an issue or would like to request a feature, please <a href="https://github.com/mattbierner/watar-support/issues">file an issue</a>.
+                </p>
+            </div>
+            <video class="video" playsinline autoplay muted source loop src="resources/demo-water.mp4" poster="resources/demo-water-poster.png"></video>
+        </section>
+    </article>
+
+    <div class="spacer"></div>
+
+    <footer class="page-footer">
+        &copy; 2021 <a href="/">Rare Realities, LLC</a>
+    </footer>
+</body>
+
+</html>
