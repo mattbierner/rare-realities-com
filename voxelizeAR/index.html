@@ -1,0 +1,96 @@
+---
+description: "VoxelizeAR: Turn the world into Minecraft-style cubes using augmented reality
+appId: 1575681728
+appLink: https://apps.apple.com/us/app/voxelizeAR/id1575681728?itsct=apps_box_link&itscg=30200
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>voxelizeAR</title>
+
+    {% include meta.html %}
+
+    <meta name="apple-itunes-app" content="app-id={{page.appId}}">
+
+    <link rel="stylesheet" type="text/css" href="resources/index.css" />
+
+    {% include analytics.html %}
+</head>
+
+<body>
+    <header class="page-header">
+        <div class="masthead">
+            <video playsinline autoplay muted loop src="resources/header.mp4" poster="resources/header-poster.jpg"></video>
+
+            <a class="logo" href="{{page.appLink}}">
+                <img alt="voxelizeAR" src="resources/icon.png">
+            </a>
+
+            <a class="app-store" href="{{page.appLink}}">
+                <img src="resources/app-store.svg">
+            </a>
+        </div>
+
+        <div class="body-header">
+            <img class="text-logo" alt="voxelizeAR" src="resources/text-logo.svg">
+
+            <p class="tagline">Turn the world into Minecraft-style cubes using augmented reality</p>
+
+            <nav>
+                <a href="#about">About</a>
+                <a href="https://github.com/mattbierner/voxelizeAR-support">Documentation</a>
+            </nav>
+        </div>
+
+    </header>
+
+    <article class="page-body">
+        <section id="about">
+            <div class="blurb">
+                <h1>Voxelize Reality</h1>
+                <p>
+                    Touch the screen to convert the world around you into <a href="https://en.wikipedia.org/wiki/Voxel">little 3D cubes</a>, creating a unique lo-fi effect.
+                </p>
+                <p>
+                    Because this is an augmented reality app, the effect persists even when you walk around the world.
+                </p>
+            </div>
+
+            <video class="video" playsinline autoplay muted source loop src="resources/demo-overview.mp4" poster="resources/demo-overview-poster.jpg"></video>
+        </section>
+        <section>
+            <div class="blurb">
+                <h1>Placement</h1>
+                <p>
+                    Scale the voxel grid up for a more blocky appearance or scale it down for a more chunky look. Touch and drag to rotate the voxel grid so it best aligns with the real world.
+                </p>
+                <p>
+                    Devices with a LiDAR sensor — such as the iPhone 12 Pro or iPad Pro — can voxelize any, three dimensional shape!
+                </p>
+            </div>
+
+            <video class="video" playsinline autoplay muted source loop src="resources/demo-placement.mp4" poster="resources/demo-placement-poster.jpg"></video>
+        </section>
+        <section>
+            <div class="blurb">
+                <h1>Support</h1>
+                <p>
+                    For help using voxelizeAR, <a href="https://github.com/mattbierner/VoxelizeAR-support">check out our documentation</a>.
+                </p>
+                <p>
+                    If you run into an issue or would like to request a feature, please <a href="https://github.com/mattbierner/voxelizeAR-support/issues">file an issue</a>.
+                </p>
+            </div>
+            <video class="video" playsinline autoplay muted source loop src="resources/demo-flowers.mp4" poster="resources/demo-flowers-poster.jpg"></video>
+        </section>
+    </article>
+
+    <div class="spacer"></div>
+
+    <footer class="page-footer">
+        &copy; 2021 <a href="/">Rare Realities, LLC</a>
+    </footer>
+</body>
+
+</html>
