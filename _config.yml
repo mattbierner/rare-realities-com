@@ -36,3 +36,4 @@ exclude:
   - README.md
   - CNAME
   - support
+  - scripts
